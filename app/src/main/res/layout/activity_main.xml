@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.flashlightdemo.MainActivity"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:id="@+id/btnSwitch"
+        android:src="@drawable/switchoff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        />
+
+    <TextView
+        android:text="Flashlight App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"/>
+
+
+</RelativeLayout>
